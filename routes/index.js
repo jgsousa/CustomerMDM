@@ -12,6 +12,7 @@ router.get('/', function(req, res, next) {
   customer.id = '231233';
   customer.email = 'joasousa@deloitte.pt';
   payload.self.push(customer);
+  customer = {};
   customer.name = 'Francisco Couto';
   customer.id = '424242343';
   customer.email = 'fcouto@deloitte.pt';
