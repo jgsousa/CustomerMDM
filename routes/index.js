@@ -17,6 +17,10 @@ router.get('/', function(req, res, next) {
   customer.id = '0010O000021fs6eQAA';
   customer.email = 'fcouto@deloitte.pt';
   payload.self.push(customer);
+    customer = {};
+    customer.name = 'Flavio Saraiva';
+    customer.email = 'fvsaraiva@deloitte.pt';
+    payload.external.push(customer);
   res.send(JSON.stringify(payload));
 });
 
