@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
   payload.external = [];
   var customer = {};
   customer.name = 'Joao Sousa';
-  customer.id = '0010O000021gTXKQA2';
+  customer.id = '0017E00000s6wlUQAQ';
   customer.email = 'joasousa@deloitte.pt';
   payload.self.push(customer);
   customer = {};
